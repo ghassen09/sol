@@ -82,7 +82,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 							<table class="table table-striped custom-table datatable">
 								<thead>
 									<tr>
-										<th> id </th>
+										<th> ID </th>
 										<th>Nom </th>
 										<th>Référence</th>
 										<th>Adresse</th>
