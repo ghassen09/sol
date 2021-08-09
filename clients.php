@@ -81,7 +81,17 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 						<div class="table-responsive">
 							<table class="table table-striped custom-table datatable">
 								<thead>
-
+									<tr>
+										<th> ID </th>
+										<th>Nom </th>
+										<th>Référence</th>
+										<th>Adresse</th>
+										<th>Email</th>
+										<th>Téléphone</th>
+										<th>Pays</th>
+										<th>Matricule</th>
+										<th>Action</th>
+									</tr>
 								</thead>
 								<?php 
 									while($row=mysqli_fetch_assoc($result)) {
